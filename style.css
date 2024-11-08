@@ -33,13 +33,14 @@ img {
 
 .name {
     font-size: 20px;
-    padding: 5px
+    padding: 5px;
 }
 
 .options-bar ul{
     display: flex;
     justify-content: center;
     padding: 10px;
+    font-size: 16px;
     gap: 20px;
 }
 
@@ -47,4 +48,35 @@ img {
     position: relative;
     display: inline-block;
     margin-bottom: 0;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product div {
+    border: 1px solid #FBCCE7;
+    margin: 10px;
+    padding: 10px;
+    width: calc(25% - 40px);
+    box-sizing: border-box;
+}
+
+.product img{
+    width: 100%;
+    height: auto;
+}
+
+.product h2, p {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+.product p {
+    font-size: 16px;
+    color: rgb(102, 102, 102);
 }
