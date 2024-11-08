@@ -36,6 +36,15 @@ img {
     padding: 5px;
 }
 
+@font-face {
+    font-family: 'La Sonnambula';
+    src: url('./fonts/la-sonnambula-demo-ffp.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 .options-bar ul{
     display: flex;
     justify-content: center;
@@ -79,4 +88,12 @@ img {
 .product p {
     font-size: 16px;
     color: rgb(102, 102, 102);
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
 }
