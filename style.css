@@ -43,7 +43,19 @@ img {
     font-style: normal;
 }
 
-
+.name-overlay {
+    font-family: "La Sonnambula", cursive;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    color: rgba(203, 65, 84, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
 
 .options-bar ul{
     display: flex;
